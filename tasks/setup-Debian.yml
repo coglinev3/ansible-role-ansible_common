@@ -3,8 +3,7 @@
 
 - name: "Debian: Upgrade all packages to the latest version"
   ansible.builtin.apt:
-    name: "*"
-    state: latest
+    upgrade: true
     update_cache: "{{ common_packages_update_cache | default('false') }}"
   when: common_packages_update_all
 

@@ -1,7 +1,7 @@
 ---
 # file: roles/ansible-common/tests/test.yml
 
-- name: Exæmple playbook for using role coglinev3.ansible_common 
+- name: Exæmple playbook for using role coglinev3.ansible_common
 - hosts: localhost
   become: true
   roles:

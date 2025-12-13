@@ -19,18 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the codebase.
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           path: 'coglinev3.ansible_common'
 
-      - name: Install test dependencies.
-        run: python3 -m pip install --user ansible ansible-lint
-
-      - name: Lint code with yamllint. 
-        run: yamllint .
-
-      - name: Lint code with ansible-lint.
-        run: ansible-lint
+      - name: Run ansible-lint
+        uses: ansible-actions/ansible-lint-action@v1.1.0
+        with:
+          target: "./"
+          required_collections: 'community.general'
 
   test:
     name: Molecule
@@ -70,14 +67,13 @@ jobs:
 
     steps:
       - name: Check out the codebase.
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           path: 'coglinev3.ansible_common'
 
       - name: Install Molecule
         run: >-
-          python3 -m pip install --user "urllib3<2"
-          ansible
+          python3 -m pip install --user ansible
           molecule
           molecule-plugins[docker]
 
