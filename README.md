@@ -10,8 +10,6 @@ Setup defaults (Ansible module dependencies, software packages) for every suppor
 * Amazon Linux 2023,
 * Debian 10 (Buster),
 * Debian 11 (Bullseye),
-* Enterprise Linux 7, 
-* Enterprise Linux 8, 
 * Enterprise Linux 9, 
 * Fedora 34,
 * Fedora 35,
