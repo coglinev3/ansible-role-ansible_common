@@ -15,7 +15,7 @@
   until: install_dnf_automatic.rc == 0
   retries: 20
   delay: 0
-  when: ansible_distribution == "Fedora"
+  when: ansible_facts.distribution == "Fedora"
 # -----------------------------------------------------------------------------
 
 # The EPEL Repository should be installed on all EL Systems
@@ -25,8 +25,8 @@
     state: present
     update_cache: "yes"
   when:
-    - not ansible_distribution == "Fedora"
-    - not ansible_distribution == "Amazon"
+    - not ansible_facts.distribution == "Fedora"
+    - not ansible_facts.distribution == "Amazon"
   tags:
     - install
 
