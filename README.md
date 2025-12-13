@@ -8,7 +8,6 @@ Setup defaults (Ansible module dependencies, software packages) for every suppor
 * Alpine Linux 3.16,
 * Alpine Linux 3.17,
 * Amazon Linux 2023,
-* Debian 10 (Buster),
 * Debian 11 (Bullseye),
 * Enterprise Linux 9, 
 * Fedora 34,
