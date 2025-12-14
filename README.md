@@ -23,6 +23,10 @@ Setup defaults (Ansible module dependencies, software packages) for every suppor
 * Fedora 36,
 * Fedora 37,
 * Fedora 38,
+* Fedora 39,
+* Fedora 40,
+* Fedora 41,
+* Fedora 42,
 * Ubuntu 22.04 LTS (Jammy Jellyfish),
 * Ubuntu 24.04 LTS (Noble Numbat).
 
