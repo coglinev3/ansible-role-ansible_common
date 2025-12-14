@@ -126,7 +126,7 @@ Using a pre_tasks statement on Ubuntu systems can ensure that the python-minimal
 
 ## Version
 
-Release: 1.10.1
+Release: 1.11.0
 
 ## License
 
@@ -134,4 +134,4 @@ BSD
 
 ## Author Information
 
-Copyright &copy; 2023 Cogline.v3.
+Copyright &copy; 2018 - 2025 Cogline.v3.
