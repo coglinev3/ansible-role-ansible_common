@@ -18,8 +18,7 @@ galaxy_info:
         - "2023"
     - name: EL
       versions:
-        - "10"
-        - "9"
+        - all
     - name: Ubuntu
       versions:
         - jammy
