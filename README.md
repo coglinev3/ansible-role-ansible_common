@@ -14,6 +14,8 @@ Setup defaults (Ansible module dependencies, software packages) for every suppor
 * Alpine Linux 3.22,
 * Amazon Linux 2023,
 * Debian 11 (Bullseye),
+* Debian 12 (Bookworm),
+* Debian 13 (Trixie),
 * Enterprise Linux 9, 
 * Fedora 34,
 * Fedora 35,
