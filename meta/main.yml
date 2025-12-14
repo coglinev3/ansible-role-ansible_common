@@ -18,18 +18,17 @@ galaxy_info:
         - "2023"
     - name: EL
       versions:
+        - "10"
         - "9"
-        - "8"
-        - "7"
     - name: Ubuntu
       versions:
-        - bionic
-        - focal
         - jammy
+        - noble
     - name: Debian
       versions:
-        - buster
         - bullseye
+        - bookworm
+        - trixie
     - name: Fedora
       versions:
         - "34"
@@ -37,6 +36,10 @@ galaxy_info:
         - "36"
         - "37"
         - "38"
+        - "39"
+        - "40"
+        - "41"
+        - "42"
 
   galaxy_tags:
     - ansible
