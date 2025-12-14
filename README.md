@@ -17,6 +17,7 @@ Setup defaults (Ansible module dependencies, software packages) for every suppor
 * Debian 12 (Bookworm),
 * Debian 13 (Trixie),
 * Enterprise Linux 9, 
+* Enterprise Linux 10, 
 * Fedora 34,
 * Fedora 35,
 * Fedora 36,
