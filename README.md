@@ -3,6 +3,7 @@
 [![Build](https://github.com/coglinev3/ansible_common/actions/workflows/build.yml/badge.svg)](https://github.com/coglinev3/ansible_common/actions/workflows/build.yml) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/coglinev3/ansible-common) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://raw.githubusercontent.com/coglinev3/ansible-common/master/LICENSE)
 
 Setup defaults (Ansible module dependencies, software packages) for every supported Linux distribution:
+
 * Alpine Linux 3.14,
 * Alpine Linux 3.15,
 * Alpine Linux 3.16,
